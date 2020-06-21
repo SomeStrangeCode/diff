@@ -1,0 +1,41 @@
+[
+  {
+    "id": "top1",
+    "parentId": null,
+    "alive": true,
+    "children": [
+      {
+        "id": "2d",
+        "parentId": "top1",
+        "alive": false,
+        "children": [
+          {
+            "id": "3a",
+            "parentId": "2d",
+            "alive": true,
+            "children": [
+              {
+                "id": "4d",
+                "parentId": "3a",
+                "alive": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2a",
+        "parentId": "top1",
+        "alive": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "top2",
+    "parentId": null,
+    "alive": false,
+    "children": []
+  }
+]
